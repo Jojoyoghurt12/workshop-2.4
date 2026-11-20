@@ -1,0 +1,39 @@
+ 'age',
+ 'gender',   1=female, 2=male
+ 'height',
+ 'weight',
+ 'bsa',      body surface area, computed from height and weight
+ 'diabetes_sics',  diabetes status
+ 'hypertension',
+ 'previousmi',     whether patient previously suffered from a myocardiac infarction
+ 'previousrenalfailure',
+ 'confirmedinfection',
+ 'gcs_d1',         glasgow coma scale; 15 = healthy
+ 'pao2_d1',        partial oxygen pressure on day 1
+ 'fio2_d1',        ?
+ 'mech_vent_d1',   whether mechanical ventilation was used (on day 1)
+ 'special_vent_method_d1',
+ 'sap_d1',         systolic arterial pressure
+ 'dap_d1',         diastolic arterial pressure
+ 'MAP_d1',         mean arterial pressure
+ 'vam_d1',         ?
+ 'platelets_d1',   platelet count
+ 'bili_d1',        bilirubin levels
+ 'creat_d1',       createnin level
+ 'rrt_d1',         ?
+ 'uo_d1',          ?
+ 'resp_d1_amount', respiration amount
+ 'resp_d1_SOFA',   respiration partial SOFA score for day 1 (sequential organ failure assessment, lower=better)
+ 'platelets_d1_SOFA', platelet partial SOFA score for day 1
+ 'bili_d1_SOFA',   bilirubin SOFA
+ 'cv_d1_SOFA',     cardiovascular SOFA
+ 'gcs_d1_sofa',    neurological SOFA
+ 'creat_d1_SOFA',  createnin SOFA
+ 'tot_d1_SOFA',    total SOFA score for day 1
+ 'max_SOFA',       maximum SOFA score across all days - DO NOT USE as predictor
+ 'mort_icu',       did patient die on the ICU (1=no, 2=yes) - DO NOT USE as predictor
+ 'mort7',          did patient die within first 7 days after admission (1=no, 2=yes) - this is the outcome
+ 'mort30',         did patient die within first 30 days after admission (1=no, 2=yes) - DO NOT USE
+ 'mort90',         did patient die within first 90 days after admission (0=no, 1=yes) - DO NOT USE
+ 'mort180'         did patient die within first 180 days after admission (0=no, 1=yes) - DO NOT USE    
+                
